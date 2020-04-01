@@ -5,10 +5,6 @@ import PropTypes from 'prop-types'
 const Search = ({searchUsers, clearUsers, setAlert, showClear}) => {
     const [text, setText ] = useState('')
 
-    
-
-    
-
     const onSubmit = (e) => {
         e.preventDefault()
         if(text === '') {
